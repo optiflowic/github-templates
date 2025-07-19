@@ -1,5 +1,5 @@
 ---
-name: 🐛 Bug Report
+name: 🐛 Bug Report (Markdown)
 about: Report a reproducible issue or unexpected behavior
 title: "[Bug]: "
 labels: [bug]
@@ -27,6 +27,7 @@ labels: [bug]
 
 ## Logs / Error Output
 
+<!-- markdownlint-disable MD033 -->
 <details>
 <summary>Click to expand</summary>
 
@@ -35,6 +36,7 @@ labels: [bug]
     ```
 
 </details>
+<!-- markdownlint-enable MD033 -->
 
 Additional Information
 
