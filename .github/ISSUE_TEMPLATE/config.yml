@@ -1,0 +1,28 @@
+blank_issues_enabled: false
+contact_links: []
+
+issue_templates:
+  - name: 🐛 Bug Report
+    file: bug.yml
+  - name: 🐛 Bug Report (Markdown)
+    file: bug.md
+  - name: 🌟 Feature Request
+    file: feature.yml
+  - name: 🌟 Feature Request (Markdown)
+    file: feature.md
+  - name: ❓ Question
+    file: question.yml
+  - name: ❓ Question (Markdown)
+    file: question.md
+  - name: 📚 Documentation Update
+    file: docs.yml
+  - name: 📚 Documentation Update (Markdown)
+    file: docs.md
+  - name: ✅ Task
+    file: task.yml
+  - name: ✅ Task (Markdown)
+    file: task.md
+  - name: 💬 General Feedback
+    file: feedback.yml
+  - name: 💬 General Feedback (Markdown)
+    file: feedback.md
