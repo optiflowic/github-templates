@@ -5,9 +5,9 @@ We welcome bug reports, feature requests, documentation improvements, and other 
 
 ## 🪧 Before You Start
 
-- Check if there's an existing [issue](../../issues) for your idea.
+- Check if there's an existing [issue](../../../issues) for your idea.
 - Make sure you're using the latest version of the templates/tools.
-- If you're not sure how to proceed, feel free to [open a discussion](../../discussions) or a `question` issue.
+- If you're not sure how to proceed, feel free to open a `question` issue.
 
 ## 🐞 Reporting Issues
 
