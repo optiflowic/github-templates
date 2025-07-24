@@ -40,13 +40,17 @@ Copy the desired templates into your repository’s `.github/` directory.
 
 You can do this manually or via script. Example:
 
-```bash
-# English version
-curl -o .github/ISSUE_TEMPLATE/bug.yml https://raw.githubusercontent.com/optiflowic/github-templates/main/en/.github/ISSUE_TEMPLATE/bug.yml
+- English version
 
-# Japanese version
-curl -o .github/ISSUE_TEMPLATE/bug.yml https://raw.githubusercontent.com/optiflowic/github-templates/main/ja/.github/ISSUE_TEMPLATE/bug.yml
-```
+  ```bash
+  curl -o .github/ISSUE_TEMPLATE/bug.yml https://raw.githubusercontent.com/optiflowic/github-templates/main/en/.github/ISSUE_TEMPLATE/bug.yml
+  ```
+
+- Japanese version
+
+  ```bash
+  curl -o .github/ISSUE_TEMPLATE/bug.yml https://raw.githubusercontent.com/optiflowic/github-templates/main/ja/.github/ISSUE_TEMPLATE/bug.yml
+  ```
 
 All templates are designed to be easily customizable.
 
