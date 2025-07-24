@@ -1,8 +1,1 @@
-# CODEOWNERS template
-
-# This file defines the owners responsible for reviewing changes to specific files or directories.
-# Replace "@your-username" or "@your-org/team-name" with your actual GitHub username or team.
-# For more information: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
-
-# Set a default owner for all files (user or team)
-# * @your-username or @your-org/team-name
+* @optiflowic/core

@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability in this project, we kindly ask you to report it privately.
 
-Please send an email to **[your-email@example.com]** or contact us via a private channel (e.g., GitHub Security Advisories).  
+Please send an email to **[tech.creator.dev@gmail.com]** or contact us via a private channel (e.g., GitHub Security Advisories).  
 Avoid creating a public issue or pull request.
 
 We will make every effort to respond as quickly as possible and take appropriate action.
