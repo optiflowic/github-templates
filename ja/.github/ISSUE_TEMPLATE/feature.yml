@@ -1,0 +1,51 @@
+name: 🌟 機能追加の提案
+description: 新しい機能や改善案を提案します
+title: "[Feature]: "
+labels: [enhancement]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        機能提案をご検討いただきありがとうございます！  
+        ご提案の内容を正確に理解するために、できるだけ詳しくご記入ください。
+
+  - type: input
+    id: motivation
+    attributes:
+      label: モチベーション
+      description: この機能によって解決したい課題は何ですか？
+      placeholder: 例：毎回テンプレートを手動で設定するのが手間です。
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案する解決策
+      description: どのような解決策を期待していますか？
+      placeholder: 例：すべてのテンプレートを1つのコマンドで初期化できるCLIコマンドを追加する。
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 検討した代替案
+      description: 他に試した解決策や回避策があればご記入ください。
+      placeholder: 例：新しいリポジトリに手動でテンプレートをコピーしている。
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: その他の情報
+      description: スクリーンショットや関連する情報があれば記載してください。
+      placeholder: 関連するIssueや設計案などがあればここに記載してください。
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: チェックリスト
+      options:
+        - label: 類似のIssueがないか確認済みです。
+        - label: 解決したい課題と提案内容を明確に記載しました。

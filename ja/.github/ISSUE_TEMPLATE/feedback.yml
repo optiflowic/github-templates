@@ -1,0 +1,31 @@
+name: 💬 全般的なフィードバック
+description: 感想、提案、全体的な印象などをご共有ください
+title: "[Feedback]: "
+labels: [feedback]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        フィードバックをお寄せいただきありがとうございます。  
+        皆さまの声がプロジェクトの改善につながります。
+
+  - type: textarea
+    id: message
+    attributes:
+      label: 共有したい内容
+      description: 気に入った点、気になった点、改善してほしい点など、自由にご記入ください。
+      placeholder: |
+        テンプレートの見た目がとても整っていて気に入っています！  
+        デフォルトのラベルをカスタマイズできるオプションがあると嬉しいです。
+
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: チェックリスト
+      options:
+        - label: 類似のIssueがないか確認しました。
+        - label: このフィードバックはバグ報告や機能追加の提案ではありません。

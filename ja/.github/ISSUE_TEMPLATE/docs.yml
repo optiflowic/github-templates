@@ -1,0 +1,53 @@
+name: 📚 ドキュメント修正の提案
+description: ドキュメントの改善点や誤りを報告します
+title: "[Docs]: "
+labels: [documentation]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ドキュメント改善へのご協力ありがとうございます！  
+        可能な限り詳細な情報をご記入いただけると助かります。
+
+  - type: input
+    id: location
+    attributes:
+      label: 該当箇所
+      description: 問題があるドキュメントのファイルやセクションを教えてください
+      placeholder: "例: README.md、CONTRIBUTING.md、docs/usage.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: 問題の内容
+      description: 何が間違っている、抜けている、または分かりづらいですか？
+      placeholder: |
+        README のコマンド例で非推奨のフラグが使われています。
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 改善案
+      description: どのように改善するのがよいと思いますか？
+      placeholder: |
+        コマンド例を `--template=default` のように修正する
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: その他の情報
+      description: 関連する Issue やリンク、スクリーンショットなどがあれば記載してください
+      placeholder: 関連する情報があればご記入ください
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: チェックリスト
+      options:
+        - label: 類似の Issue がすでに存在しないことを確認しました
+        - label: 問題と提案内容を明確に記述しました

@@ -1,0 +1,44 @@
+name: ❓ 質問
+description: 使用方法、挙動、実装に関する質問を投稿します
+title: "[Question]: "
+labels: [question]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        質問ありがとうございます！  
+        できるだけ詳細にご記入いただけると、より正確にサポートできます。
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景・状況
+      description: 何をしようとしていて、何に悩んでいますか？
+      placeholder: |
+        テンプレートを新しいリポジトリに統合しようとしていますが、YAML形式とMarkdown形式のどちらを使うべきか分かりません。
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: 試したこと
+      description: 既に調べたことや試したことを記載してください。
+      placeholder: |
+        READMEや他のリポジトリを確認しましたが、明確な記載が見つかりませんでした。
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: その他の情報
+      description: その他の背景、スクリーンショット、関連ディスカッションなどがあれば記載してください。
+      placeholder: 補足情報があれば記載してください。
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: チェックリスト
+      options:
+        - label: 類似の質問が既にIssueにないか確認しました。
+        - label: 質問の内容と背景を明確に記載しました。

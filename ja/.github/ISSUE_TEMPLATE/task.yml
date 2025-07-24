@@ -1,0 +1,52 @@
+name: ✅ タスク
+description: 特定の作業やアクション項目を提案または追跡します
+title: "[Task]: "
+labels: [task]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        このテンプレートを使って、明確で実行可能なタスクを提案してください。
+
+  - type: input
+    id: summary
+    attributes:
+      label: タスク概要
+      description: 何を行う必要がありますか？
+      placeholder: "例: Lintチェック用のCIワークフローを追加"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: タスクの詳細
+      description: 必要に応じて、タスクについて詳しく説明してください。
+      placeholder: |
+        コードスタイルと品質を自動でチェックするCIパイプラインを設定する。
+
+  - type: textarea
+    id: subtasks
+    attributes:
+      label: サブタスク（任意）
+      description: 必要に応じて、チェックリスト形式でサブタスクを記入してください。
+      placeholder: |
+        - [ ] テストコードを追加する
+        - [ ] CIの設定ファイルを修正する
+        - [ ] ドキュメントを更新する
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: 依存関係または前提条件
+      description: このタスクの前に完了している必要がある関連Issueやタスクはありますか？
+      placeholder: "例: #42 に依存"
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: チェックリスト
+      options:
+        - label: このタスクが既に他で管理されていないことを確認しました。
+        - label: このタスクには明確な完了基準があります。

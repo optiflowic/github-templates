@@ -1,0 +1,9 @@
+# CODEOWNERS テンプレート
+
+# このファイルは、特定のファイルやディレクトリに対する変更のレビュー担当者（オーナー）を定義します。
+# "@your-username" や "@your-org/team-name" を実際の GitHub ユーザー名またはチーム名に置き換えてください。
+# 詳細はこちらを参照してください:
+# https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# すべてのファイルのデフォルトオーナーを設定する（ユーザーまたはチーム）
+# * @your-username または @your-org/team-name

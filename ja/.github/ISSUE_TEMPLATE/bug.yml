@@ -1,0 +1,69 @@
+name: 🐛 バグ報告
+description: 再現可能な問題や予期しない動作を報告します
+title: "[Bug]: "
+labels: [bug]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        バグのご報告ありがとうございます。  
+        以下の項目にご記入いただくことで、問題の再現・修正がスムーズになります。
+
+  - type: input
+    id: environment
+    attributes:
+      label: 実行環境
+      description: "バグが発生した環境を記入してください（例: OS、ブラウザ、Go のバージョンなど）"
+      placeholder: "例: macOS 13.5, Go 1.22.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: どのようにすれば問題を再現できますか？
+      placeholder: |
+        1. リポジトリをクローンする
+        2. 想定される入力でアプリケーションを実行する
+        3. 問題を確認する
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待される動作
+      description: 本来どのように動作すべきだったかを記入してください
+      placeholder: 期待していた動作を記述してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作
+      description: 実際に発生した動作を記入してください
+      placeholder: 発生した事象をできるだけ詳しく記述してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: ログ / エラーメッセージ
+      description: 関連するログやエラーメッセージ、スクリーンショットなどを貼り付けてください
+      placeholder: |
+        ```
+        error: unexpected behavior
+        ```
+      render: shell
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: チェックリスト
+      options:
+        - label: 類似の Issue がすでにないか確認しました
+        - label: 問題の再現手順を十分に記載しました
