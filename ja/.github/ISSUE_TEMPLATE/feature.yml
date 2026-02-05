@@ -10,7 +10,7 @@ body:
         機能提案をご検討いただきありがとうございます！  
         ご提案の内容を正確に理解するために、できるだけ詳しくご記入ください。
 
-  - type: input
+  - type: textarea
     id: motivation
     attributes:
       label: モチベーション

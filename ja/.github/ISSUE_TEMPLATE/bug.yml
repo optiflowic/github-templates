@@ -11,11 +11,33 @@ body:
         以下の項目にご記入いただくことで、問題の再現・修正がスムーズになります。
 
   - type: input
+    id: version
+    attributes:
+      label: バージョン
+      description: 使用しているバージョンを記入してください
+      placeholder: "例: v1.0.0"
+    validations:
+      required: true
+
+  - type: input
     id: environment
     attributes:
       label: 実行環境
       description: "バグが発生した環境を記入してください（例: OS、ブラウザ、Go のバージョンなど）"
       placeholder: "例: macOS 13.5, Go 1.22.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 重要度
+      description: このバグの深刻度を選択してください
+      options:
+        - "Critical — アプリのクラッシュやデータ損失"
+        - "Major — 機能が動作せず、回避策なし"
+        - "Minor — 機能が動作しないが、回避策あり"
+        - "Cosmetic — 表示上の軽微な問題"
     validations:
       required: true
 

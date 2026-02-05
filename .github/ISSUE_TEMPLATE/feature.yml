@@ -10,7 +10,7 @@ body:
         Thank you for taking the time to suggest a new feature!  
         Please provide as much detail as possible to help us understand your idea.
 
-  - type: input
+  - type: textarea
     id: motivation
     attributes:
       label: Motivation
