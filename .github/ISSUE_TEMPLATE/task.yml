@@ -27,6 +27,16 @@ body:
         Set up a CI pipeline that checks code style and quality automatically.
 
   - type: textarea
+    id: subtasks
+    attributes:
+      label: Subtasks (optional)
+      description: If there are multiple steps, list them as a markdown checklist.
+      placeholder: |
+        - [ ] Add unit tests
+        - [ ] Update CI configuration
+        - [ ] Review and update documentation
+
+  - type: textarea
     id: dependencies
     attributes:
       label: Dependencies or Prerequisites

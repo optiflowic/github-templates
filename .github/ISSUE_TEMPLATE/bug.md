@@ -38,6 +38,6 @@ labels: [bug]
 </details>
 <!-- markdownlint-enable MD033 -->
 
-Additional Information
+## Additional Information
 
 <!-- Any other context, screenshots, or related issues -->
